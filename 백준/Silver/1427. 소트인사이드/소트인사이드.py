@@ -1,0 +1,5 @@
+N = int(input())
+N_list = list(str(N))
+sorted_list = sorted(N_list, reverse=True)
+res = int("".join(sorted_list))
+print(res)
